@@ -10,8 +10,9 @@ developer-tools/
 │   └── templates/
 │       ├── config.json   # Shared CodeGraph index config
 │       └── CLAUDE.md     # Org-level AI assistant guidelines
-├── github-actions/
-│   └── codegraph-sync.yml  # Reusable workflow: index on every push
+├── .github/
+│   └── workflows/
+│       └── codegraph-sync.yml  # Reusable workflow: index on every push
 ├── otel/                   # AI token observability (Stage 2)
 │   ├── collector/
 │   ├── adapters/
